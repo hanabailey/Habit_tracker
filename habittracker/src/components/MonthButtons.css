@@ -1,0 +1,17 @@
+
+button{
+  margin-top: 20px;
+  border: 10px;
+  outline: 0;
+  padding: 3px;
+  background-color: transparent;
+  width: 100px;
+  
+  transition: all 0.4s;
+}
+
+button:hover{
+  background-color: #e3d5ca;
+  border-radius: 10%;
+ 
+}

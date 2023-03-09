@@ -1,0 +1,17 @@
+body{
+  background-color: #f5ebe0;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+}
+
+.title{
+  letter-spacing: 30px;
+  font-size: 60px;
+  display: inline-block;
+  margin: 110px 0px 50px 50px;
+
+}
+

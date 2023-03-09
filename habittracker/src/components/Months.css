@@ -1,0 +1,15 @@
+.months{
+  text-align: center;
+  width: 300px;
+  height: 200px;
+  background-color: transparent;
+  border: 1px solid black;
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.font{
+  border-bottom: 1px solid black;
+  margin: auto;
+}
+
