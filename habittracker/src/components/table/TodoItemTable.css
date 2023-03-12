@@ -1,16 +1,23 @@
-table {
-  margin: 100px;
+#todoTable {
+  margin: 5%;
   border: 1px solid black;
   border-collapse: collapse;
+  justify-content: center;
 }
 
-th,td {
+th{
   border: 1px solid black;
+}
+
+td {
+  border: 1px solid black;
+  width: 40px;
   padding: 12px;
 }
 
+
 .todoName{
-  width: 400px;
-  padding: 40px;
+  width: 20%;
+  padding: 40%;
   background-color: #e3d5ca;
 }

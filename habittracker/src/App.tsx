@@ -1,19 +1,19 @@
 import React from 'react';
 import './App.css';
-import Months from './components/Months';
-import Table from './components/table/Table';
+import MonthsCalander from './components/MonthsCalander';
+import TodoItemTable from './components/table/TodoItemTable';
 
 function App() {
   const  habits= {}
   
   return (
-    <div>
+    <>
       <div className='header'>
         <h1 className='title'>HABIT TRACKER</h1>
-        <Months />
+        <MonthsCalander />
       </div>
-      <Table />
-    </div>
+      <TodoItemTable />
+    </>
   );
 }
 

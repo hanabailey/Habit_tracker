@@ -1,10 +1,10 @@
-import './Months.css'
+import './MonthsCalander.css'
 import MonthButtons from './MonthButtons'
 
 function Months(){
   return(
     <div className="months">
-      <div className='font'>Month</div>
+      <div className='month_title'>Month</div>
         <MonthButtons />
     </div>
   )

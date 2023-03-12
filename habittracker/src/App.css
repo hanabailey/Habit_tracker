@@ -1,17 +1,19 @@
 body{
   background-color: #f5ebe0;
+  margin: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .header{
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .title{
   letter-spacing: 30px;
   font-size: 60px;
-  display: inline-block;
-  margin: 110px 0px 50px 50px;
-
+  margin-top: 1.5em;
 }
-

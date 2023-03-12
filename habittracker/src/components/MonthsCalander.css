@@ -1,14 +1,14 @@
 .months{
   text-align: center;
   width: 300px;
-  height: 200px;
+  height: 12em;
   background-color: transparent;
   border: 1px solid black;
   display: inline-block;
   margin-top: 50px;
   margin-left: 50px;
 }
-.font{
+.month_title{
   border-bottom: 1px solid black;
   margin: auto;
 }
