@@ -15,7 +15,7 @@ function TodoItemTable(){
 
   return(
     <div>
-      <table id="todoTable">
+      <table id="habitTable">
         <caption> Build your new habits!</caption>
         <colgroup>
           <col className='todoName'/>
@@ -30,6 +30,10 @@ function TodoItemTable(){
       <tbody>
         <tr>
           <td>{''}</td>
+          {cells}
+        </tr>
+        <tr>
+        <td>{''}</td>
           {cells}
         </tr>
         <tr>
