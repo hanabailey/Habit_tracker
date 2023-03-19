@@ -1,4 +1,5 @@
-import "./MonthButtons.css";
+
+import styles from './MonthButtons.module.css'
 
 function MonthButtons() {
   const months = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
@@ -6,7 +7,7 @@ function MonthButtons() {
   return (
     <>
       {months.map((month) => (
-        <button className="button">{month}</button>
+        <button className={styles.button}>{month}</button>
       ))}
     </>
   );
