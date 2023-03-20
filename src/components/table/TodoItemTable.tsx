@@ -18,7 +18,7 @@ function TodoItemTable(){
   return(
     <div>
       <table className={styles.habitTable}>
-        <caption> Build your new habits!</caption>
+        <caption className={styles.caption}> Build your new habits!</caption>
         <colgroup>
           <col className={styles.todoName}/>
         </colgroup>
@@ -34,11 +34,11 @@ function TodoItemTable(){
           {cells}
         </tr>
         <tr>
-        <td className={styles.td}>{''}</td>
+        <td className={styles.td}><input type='text' className={styles.habitInput}/></td>
           {cells}
         </tr>
         <tr>
-        <td className={styles.td}>{''}</td>
+        <td className={styles.td}><input type='text' className={styles.habitInput}/></td>
           {cells}
         </tr>
       </tbody>

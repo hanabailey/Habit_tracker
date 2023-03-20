@@ -7,12 +7,13 @@
 
 .th{
   border: 1px solid black;
+  padding: 0.5rem
 }
 
 .td {
   border: 1px solid black;
-  width: 40px;
-  padding: 12px;
+  width: 2rem;
+  padding: 0.5rem;
 }
 
 
