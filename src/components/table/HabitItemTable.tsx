@@ -6,9 +6,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircle } from '@fortawesome/free-regular-svg-icons';
 
 
-function TodoItemTable({month}){
+function HabitItemTable({month}){
 
-  const daysInMonth = DateTime.local(month).daysInMonth;
+  const daysInMonth = DateTime.local(2023, month).daysInMonth;
 
   //30치 같은 칸을 만드려고 할때 반복문으로 만들어서 돌릴 수 있음.
   const headcols = [];
@@ -21,10 +21,6 @@ function TodoItemTable({month}){
     cells.push(<td className={styles.td} key = {i}><span>{<FontAwesomeIcon icon={faCircle}/> }</span></td>)
   }
 
-  const habitTitleHandler =(e:any)=>{
-    console.log(e.target.value)
-    
-  }
 
   return(
     <div>
@@ -42,7 +38,7 @@ function TodoItemTable({month}){
       </thead>
       <tbody>
         <tr>
-          <td className={styles.td}><input type='text' onChange ={habitTitleHandler} className={styles.habitInput}/></td>
+          <td className={styles.td}><input type='text' className={styles.habitInput}/></td>
           {cells}
         </tr>
         <tr>
@@ -59,4 +55,4 @@ function TodoItemTable({month}){
   )
 }
 
-export default TodoItemTable
+export default HabitItemTable

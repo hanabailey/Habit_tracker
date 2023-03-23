@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styles from './App.module.css';
 import MonthsCalander from './components/MonthsCalander';
-import TodoItemTable from './components/table/TodoItemTable';
+import HabitItemTable from './components/table/HabitItemTable';
 import { v4 } from "uuid";
 import { DateTime } from "luxon";
 
@@ -17,7 +17,7 @@ function App() {
         
         <MonthsCalander month={month} setMonth={setMonth}/>
       </div>
-      <TodoItemTable month={month} />
+      <HabitItemTable month={month} />
     </>
   );
 }
