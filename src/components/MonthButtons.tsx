@@ -1,13 +1,21 @@
+import styles from "./MonthButtons.module.css";
 
-import styles from './MonthButtons.module.css'
-
-function MonthButtons() {
+function MonthButtons({ selectedMonth, setMonth }) {
   const months = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 
   return (
     <>
       {months.map((month) => (
-        <button className={styles.button}>{month}</button>
+        <button
+          className={[
+            styles.button,
+            month === selectedMonth ? styles.selected : ""].join(" ")}
+          onClick={() => {
+            setMonth(month);
+          }}
+        >
+          {month}
+        </button>
       ))}
     </>
   );
